@@ -1,0 +1,444 @@
+
+/* ----------------------------------------------------------------------------------------
+* Author        : Designcarebd
+* Template Name : Stamina | One Page Multipurpose Html Template
+* File          : Stamina blog CSS file
+* Version       : 1.0
+* ---------------------------------------------------------------------------------------- */
+
+
+/* page header Css 
+-------------------------------------------------*/
+
+.page-title {
+    background-image: url(../img/bg/page-title-bg.jpg);
+    background-position: center center;
+    position: relative;
+    color: #fff;
+}
+
+.page-title:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.page-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.breadcam {
+    margin-top: 50px;
+}
+
+.page-title h2,
+.page-title p, 
+.page-title a {
+    color: inherit;
+    position: relative;
+    z-index: 1;
+}
+
+.list-group {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.list-group li {
+    width: 47%;
+    margin-left: 3%;
+    float: left;
+    line-height: 35px;
+}
+
+.list-group li i.fa {
+    font-size: 0.9em;
+    margin-right: 5px;
+}
+
+.video-area iframe {
+    width: 100%;
+    height: 320px;
+    border: medium none;
+}
+
+.custom-padding{
+    padding-left: 30px;
+}
+
+/* Blog slider Page 
+-------------------------------------------------*/
+
+.owl-slider .owl-controls, 
+.news-carousel .owl-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    opacity: 0;    
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.news-carousel:hover .owl-controls {
+    opacity: 1;
+}
+
+.owl-slider img {
+    width: 100%;
+}
+
+.owl-slider .owl-controls {
+    opacity: 1;
+}
+
+.owl-buttons {
+    opacity: 0.7;
+}
+
+.owl-buttons i.fa {
+    font-size: 25px;
+    color: #fff;
+    background-color: #38C179;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transform: translate(0, -50%);
+}
+.owl-buttons i.fa:hover {
+    /*color: #333;*/
+    background-color: #333;
+}
+
+.owl-page span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+    filter: Alpha(Opacity=50);
+    border: 1px solid #fff;
+    background: #fff;
+    float: left;
+}
+
+.owl-pagination {
+    width: 80px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.owl-page.active span {
+    border-color: #38C179;
+    background: #38C179;
+}
+
+.owl-controls .owl-buttons div {
+    font-size: 25px;
+    background: none;
+}
+
+.owl-prev {
+    float: left;
+}
+
+.owl-next {
+    float: right;
+}
+
+.news-carousel .owl-buttons {
+    margin: 0 15px;
+}
+
+.owl-client .owl-controls {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* Blog Page 
+-------------------------------------------------*/
+
+.single-post {
+    margin-bottom: 50px;
+}    
+
+.blog-content .single-post h3 {
+    margin-top: 0px;
+}
+
+.featured-img {
+    position: relative;
+}
+
+.featured-img img {
+    width: 100%;
+}
+
+.featured-img .news-meta {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #000;
+    background-color: rgba(255,255,255, 0.8);
+    line-height: 50px;
+    width: 100%;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.single-post p {
+    margin-bottom: 20px;
+}
+
+.single-post .btn {
+    margin-top: 10px;
+}
+
+.comment-form {}
+.comment-form input, 
+.comment-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.comment-form input[type=submit] {
+    display: inline-block;
+    width: auto;
+    padding: 10px 30px;
+}
+
+
+
+
+/* Blog Page css 
+-----------------------------------------------*/
+.widget {
+    margin-bottom: 40px;
+}
+
+.widget ul {
+    margin: 0;
+    list-style: none;
+}
+
+.widget-recent-posts ul {
+    list-style: none;
+}
+.widget a {
+    color: inherit;
+}
+.widget a:hover {
+    color: #38C179;
+}
+
+/* Search widget css */
+.widget-search form {
+    position: relative;
+}
+
+.widget-search #s {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    padding: 10px 45px 10px 5px;
+    box-sizing: border-box;
+}
+
+.widget-search input[type="submit"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    border: none;
+    background-color: #38C179;
+    background-image: url(../img/search2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+input[type='submit']:hover {
+    color: #fff;
+    background-color: #38C179 !important;
+}
+
+
+.widget-search label {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    pointer-events:none;
+    left: 10px;
+    font-weight: 100;
+}
+
+.widget-search input:focus ~ label,
+.widget-search textarea:focus ~ label,
+.widget-search input:valid ~ label,
+.widget-search textarea:valid ~ label {
+    display: none;
+}
+
+
+/* Recent Posts Widget */
+.widget-recent-posts ul li {
+    margin-bottom: 20px;
+}
+
+.widget-recent-posts ul li:last-child {
+    margin-bottom: 0;
+}
+
+.widget-recent-posts ul li img {
+    float: left;
+    margin-right: 15px;
+    width: 80px;
+}
+
+
+.widget-recent-posts .post-details {
+    font-size: 12px;
+    color: #999;
+}
+
+.widget-recent-posts .post-details span {
+    margin-right: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .widget-recent-posts ul li img {
+        display: none;
+    }
+    
+}
+
+/* Pagination css */
+.pagination>li>a {
+    color: #38C179;
+    font-weight: 500;
+} 
+.pagination>li>a:focus, 
+.pagination>li>a:hover, 
+.pagination>li>span:focus, 
+.pagination>li>span:hover {
+    color: #38C179;
+}
+.pagination>.active>a, 
+.pagination>.active>a:focus, 
+.pagination>.active>a:hover, 
+.pagination>.active>span, 
+.pagination>.active>span:focus, 
+.pagination>.active>span:hover {
+    background-color: #38C179;
+    border-color: #38C179;
+}
+.pagination-lg>li:first-child>a, 
+.pagination-lg>li:first-child>span,
+.pagination-lg>li:last-child>a, 
+.pagination-lg>li:last-child>span {
+    border-radius: 0px;
+}
+
+
+
+/*
+comments css
+--------------------------------*/
+/*------------------------------------------------------------------*/
+/* 12 Blog comments */
+/*------------------------------------------------------------------*/
+.comments-img {
+    width: 120px;
+    height: 120px; 
+}
+
+.post-short-text {
+    font-size: 15px;
+    font-weight: bold; 
+}
+
+.comments ul {
+    margin: 0;
+    padding: 0; 
+}
+.comments ul li .comment-box {
+    border-bottom: 1px solid #f3f3f3;
+    margin-bottom: 40px;
+    overflow: hidden;
+    padding-bottom: 35px; 
+}
+.comments ul li .comment-box img {
+    float: left;
+    max-width: 125px;
+    width: auto; 
+}
+.comments ul li .comment-box .comment-content {
+    margin-left: 150px; 
+}
+.comments ul li .comment-box .comment-content h4 {
+    color: #777777;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+}
+.comments ul li .comment-box .comment-content a {
+    color: #777777;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out 0s; 
+}
+.comments ul li .comment-box .comment-content span {
+    color: #555555;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 0 5px;
+}
+.comments ul.depth .comment-box {
+    padding-left: 150px; 
+}
+.comments ul li {
+    list-style: outside none none; 
+}
+.comments ul li .comment-box .comment-content a:hover {
+    color: #1672D2; 
+}
+
+.blog-preview .post-content {
+    padding: 25px 25px 50px; 
+}
+
+@media (max-width: 767px) {
+    .comments ul.depth .comment-box {
+        padding-left: 50px; 
+    } 
+}
+
+.comments h2 {
+    margin-bottom: 50px; 
+}
+
+
+.single-post a{
+    color: #333;
+    font-weight: 600;
+}
+
+.single-post a:hover{
+    color: #38C179;
+}
