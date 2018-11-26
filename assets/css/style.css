@@ -40,10 +40,7 @@
 /* Google Fonts lato and open sans */
 @import url('https://fonts.googleapis.com/css?family=Lato:300,700,900|Open+Sans');
 
-/*TEMPORARY CONSTRUCTION STYLING*/
-.container-fluid {
-  padding: 200px;
-}
+
 /* ----------------------------------------------------------------------------------------
 *                                       01. General css
 * -------------------------------------------------------------------------------------- */
@@ -1157,4 +1154,10 @@ img.skillImg{
 #scroll-to-top:hover{
     background-color: #38C179;
     color: #fff;
+}
+
+
+/*TEMPORARY CONSTRUCTION STYLING*/
+.container-fluid {
+  padding: 200px 80px;
 }
