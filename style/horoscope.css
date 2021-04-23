@@ -1,0 +1,57 @@
+.horoscopeForm{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color:#fff;
+  position: absolute;
+  top:30%;
+  left:40%;
+  right:40%;
+  transform:-50%;
+  z-index:55;
+  border-radius:25px;
+  padding:1rem 2rem;
+  background:rgba(0,0,0,.5);
+  text-align:center;
+}
+#selectSign,
+.goBack,
+.submitButton{
+  border-radius:10px;
+  border:0px;
+  padding:.4rem 1rem;
+  background:rgba(255,255,255,.2);
+  color:#fff;
+}
+#selectSign{
+  margin-top:1rem;
+}
+.selectSign{
+  color:#000;
+}
+.horoscopeDisplay{
+  line-height: 2;
+  color:#fff;
+  position: absolute;
+  top:22%;
+  left:10%;
+  right:10%;
+  z-index:55;
+  border-radius:25px;
+  padding:2rem;
+  background:rgba(0,0,0,.5);
+}
+.horoscopeContent{
+  padding:2rem;
+}
+.horoscopeForm p{
+  font-size:.52rem;
+  margin:.5rem;
+}
+.submitButton{
+  font-weight:bold;
+  font-size:16px;
+  background:rgba(0,0,0,1);
+  padding:1rem;
+  color:rgba(255,255,255,.9);
+}

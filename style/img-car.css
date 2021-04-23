@@ -1,0 +1,18 @@
+
+#forwardButton,
+#backButton{
+  position: absolute;
+  top:50%;
+  transform: translateY(-50%);
+  z-index:55;
+  border-radius:90%;
+  padding:3rem;
+  border:0px;
+  background:rgba(255,255,255,.5);
+}
+#backButton{
+  left:5vw;
+}
+#forwardButton{
+  right:5vw;
+}

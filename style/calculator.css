@@ -1,0 +1,35 @@
+main{
+  background: rgba(255,255,255,.94);
+  height:78vh;
+  min-width: 525px;
+}
+.flexCalculator{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size:1.2rem;
+}
+.calculatorScreen{
+  padding:.2rem 2rem;
+  text-align:right;
+  font-size:2.5rem;
+  color:rgba(0,0,0,.2);
+  width:90.5%;
+  background-color:rgba(56,193,121,.3);
+  border:1px solid rgba(255,255,255,.8);
+  margin:2rem 0;
+}
+.number,
+.operator{
+  padding:1.5rem;
+  border: 0px;
+  margin:.5rem;
+  color:rgb(56,193,121);
+  font-weight:bold;
+}
+.number{
+  width:25%;
+}
+.operator{
+  width:10%;
+}

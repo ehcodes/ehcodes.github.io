@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+      <title>
+        Horoscope
+      </title>
+      <meta charset="utf-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <meta name="msapplication-TileColor" content="#38c179">
+      <meta name="theme-color" content="#38c179">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <link rel="stylesheet" href="../style/normalize.css">
+      <link rel="stylesheet" href="../style/index.css">
+      <link rel="stylesheet" href="../style/horoscope.css">
+    </head>
+    <body>
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <img src="../imgs/logo.png" alt="Engrid Hernandez">
+            </li>
+            <li class="alignright">
+              <h1>Horoscope</h1>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="replaceSection">
+          <img src="../imgs/horoscope/bg4.jpg" alt="">
+        </section>
+        <form class="horoscopeForm">
+          <label for="selectSign">
+            <h3>What's your Sign?</h3>
+          </label>
+          <select id="selectSign" class="" name="selectSign">
+            <option class="selectSign" value="Aries">Aries</option>
+            <option class="selectSign" value="Taurus">Taurus</option>
+            <option class="selectSign" value="Gemini">Gemini</option>
+            <option class="selectSign" value="Cancer">Cancer</option>
+            <option class="selectSign" value="Leo">Leo</option>
+            <option class="selectSign" value="Virgo">Virgo</option>
+            <option class="selectSign" value="Libra">Libra</option>
+            <option class="selectSign" value="Scorpio">Scorpio</option>
+            <option class="selectSign" value="Sagittarius">Sagittarius</option>
+            <option class="selectSign" value="Capricorn">Capricorn</option>
+            <option class="selectSign" value="Aquarius">Aquarius</option>
+            <option class="selectSign" value="Pisces">Pisces</option>
+          </select>
+          <p>If you've selected your sign, click the button below to retrieve your horoscope.</p>
+          <button class="submitButton" type="button" name="button">Get Your Horoscope</button>
+        </form>
+        <section class="horoscopeDisplay dispNone">
+          <button class="goBack" type="button" name="button">
+            <i class="fas fa-chevron-circle-left"> </i>
+            View a Different Horoscope
+          </button>
+          <p class="horoscopeContent">
+            Someone keen to assist you at work may be promising more than they can deliver today. Try to parse their offer and test if it is real or not. You also have heaps of your own errands to run. You motor around your city, almost like a town crier, spreading the good word to any and all who will listen. There is a lot on your mind and it may leave your lips immediately. Thankfully, a dash of caution will save you from any embarrassing admissions. Busy does not equal success.
+          </p>
+        </section>
+      </main>
+      <footer>
+        <h4>You can learn something new everyday if you just listen.</h4>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="../js/main.js"></script>
+      <script type="text/javascript" src="../js/horoscope.js"></script>
+    </body>
+</html>

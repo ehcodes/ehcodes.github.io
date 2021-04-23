@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin:0;
+  padding:0;
+}
+html{
+  font-size:18px;
+}
+body{
+  background:#FFFFFF;
+}
+/* basic cheats */
+.clearfix:after{
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.clear {
+  clear: both;
+}
+.alignright {
+  float: right;
+}
+.alignleft {
+  float: left;
+}
+.dispNone{
+  display:none!important;
+}
+
+/*Header-Navbar*/
+nav{
+  height: 12vh;
+  background: #000a00;
+  box-shadow: 1px 1px 1px rgba(0, 0,0, 0.1);
+  width:100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8998;
+  transition: all 0.5s;
+}
+.scrollUp{
+  transform: translateY(-12vh)
+}
+main{
+  margin:12vh 0;
+}
+ul{
+  margin:0;
+}
+li{
+  display:inline-block;
+  padding-right:1rem;
+}
+li:first-of-type{
+  padding:1rem;
+  padding-right:0rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  color: #fff;
+}
+/* footer */
+footer{
+  padding:1rem;
+  text-align:center;
+  background: #000a00;
+  min-height: 10vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* image carousel + horoscope */
+.replaceSection img{
+  width:100%;
+  height:77vh;
+  z-index: 1;
+}
+/* index only */
+.apology{
+  padding:5%;
+}
+
